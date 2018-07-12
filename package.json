@@ -1,0 +1,16 @@
+{
+  "name": "att-splitter",
+  "version": "1.0.0",
+  "description": "att bill splitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-parse": "^1.0.8",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
