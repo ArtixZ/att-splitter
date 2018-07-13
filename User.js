@@ -1,9 +1,17 @@
 module.exports = class {
-    constructor() {
+    constructor(number) {
+        this.number = number
         this.monthlyMoney = {}
     }
 
-    setMoneyToMonth(month, money) {
-        this.monthlyMoney[month] = money
+    setMoneyToMonth(dateRage, money) {
+        this.monthlyMoney[dateRage] = money
+    }
+    
+    getNumber() {
+        return this.number
+    }
+    getMonthlyMoney() {
+        return this.monthlyMoney
     }
 }
