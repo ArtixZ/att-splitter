@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "excel4node": "^1.4.0",
     "lodash": "^4.17.10",
     "pdf-parse": "^1.0.8",
     "request": "^2.87.0",

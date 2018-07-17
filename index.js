@@ -17,6 +17,7 @@ async function readFilesFromFolder(folderName) {
     })
     await Promise.all(reqArray)
     console.log(fp)
+    fp.exportExcel()
 
 }
 
